@@ -103,6 +103,7 @@ h2 {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
+    letter-spacing: 0.02em;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
@@ -123,4 +124,8 @@ footer {
 
 .section-team {
     background-color: #F4F4FD;
+}
+
+.section-img {
+    background-color: #FFFFFF;
 }

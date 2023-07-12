@@ -46,12 +46,12 @@ body {
     font-style: normal;
 }
 
-.header-list:active, 
+.header-list:focus, 
 .header-list:hover {
     color: #404BBF;
 }
 
-.header-address:active,
+.header-address:focus,
 .header-address:hover {
     color: #404BBF
 }
@@ -60,12 +60,13 @@ body {
     text-decoration: none;
 }
 
-h1 {
+.main-title {
     color: #FFF;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .section_title {
@@ -73,13 +74,19 @@ h1 {
 }
 
 .section_title-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #FFF;
     background-color: #4D5AE5;
     text-align: center;
+    cursor: pointer;
 }
 
-.section_title-button:hover {
+.section_title-button:hover,
+.section_title-button:focus {
     background-color: #404BBF;
 }
 

@@ -1,3 +1,13 @@
+:root {
+    --color1: #404BBF;
+    --color2: #2E2F42;
+    --color3: #FFFFFF;
+    --color4: #434455;
+    --color5: #4D5AE5;
+    --font-family1: 'Roboto', sans-serif;
+    --font-family2: 'Raleway', sans-serif;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -117,6 +127,10 @@ h2 {
     text-transform: capitalize;
 }
 
+.portfolio-title {
+    text-align: left;
+}
+
 .list-title {
     color: #2E2F42;
     font-size: 20px;
@@ -136,4 +150,8 @@ footer {
 
 .section-img {
     background-color: #FFFFFF;
+}
+
+.paragraph-portfolio {
+    color: #434455;
 }
